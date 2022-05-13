@@ -11,7 +11,6 @@
 
 <img src="img/fiin.png">
 <br>
-<br>
 
 <h2>Tecnologias utilizadas</h2>
 
