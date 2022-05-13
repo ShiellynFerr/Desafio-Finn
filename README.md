@@ -10,7 +10,7 @@
 - O Desafio foi desenvolvido utilizando a propriedade position
 
 <img src="img/fiin.png">
-<br>
+
 
 <h2>Tecnologias utilizadas</h2>
 
