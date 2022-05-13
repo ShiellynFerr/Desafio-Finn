@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800&family=Roboto:wght@100;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-azul {
+    background-color: #2CB3F3;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.header p {
+    font-size: 30px;
+}
+
+.chapeu-finn {
+    height: 430px;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    left: 300px;
+}
+
+.rosto {
+    background-color: #ffe1c9;
+    height: 367px;
+    width: 492px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px ;
+    right: 160px;;
+}
+
+.olho {
+    background-color: #000;
+    border-radius: 50%;
+    width: 45px;
+    height: 50px;
+    position: absolute;
+}
+
+.olho-direito {
+    
+    top: 80px;
+    right: 330px;
+}
+
+.olho-esquerdo{
+    top: 80px;
+    right: 100px;
+}
+
+.boca {
+    position: absolute;
+    top: 230px;
+    right: 260px;
+    width: 300px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+input {
+    font-size: 25px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #55A603;
+    border: #55A603;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 605px;
+}
